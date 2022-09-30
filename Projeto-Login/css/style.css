@@ -3,6 +3,7 @@
 * {
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -43,12 +44,50 @@ section#login {
 
 }
 
-main > section#login > div#formulario > h1{
+main > section#login > div#formulario > h1 {
+    display: block;
     padding-top: 10px;
     text-align: center;
 }
 
-main > section#login > div#formulario > p{
+main > section#login > div#formulario > p {
+    display: block;
     padding: 10px;
     font-size: 0.8em;
+}
+
+.campo {
+    background-color: #693DBF;
+    height: 39px;
+    text-align: center;
+    width: 90%;
+    margin: 8px auto;
+    border-radius: 10px;
+
+}
+
+label {
+    display: none;
+}
+
+.campo > input {
+    background-color: rgb(128, 228, 233);
+    height: 36px;
+    margin-top: 2px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+
+.material-icons {
+    color: white;
+    padding-right: 10px;
+    vertical-align: bottom;
+}
+
+#entrar {
+
+}
+
+#esqueci {
+    display: block;
 }
