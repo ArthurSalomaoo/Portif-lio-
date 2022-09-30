@@ -27,7 +27,7 @@ section#login {
     top: 50%;
     left: 50%;
     width: 250px;
-    height: 500px;
+    height: 510px;
     border-radius: 20px;
     overflow: hidden;
 
@@ -53,6 +53,7 @@ main > section#login > div#formulario > h1 {
 main > section#login > div#formulario > p {
     display: block;
     padding: 10px;
+    padding-bottom: 5px;
     font-size: 0.8em;
 }
 
@@ -71,23 +72,51 @@ label {
 }
 
 .campo > input {
-    background-color: rgb(128, 228, 233);
+    background-color: rgb(115, 200, 204);
     height: 36px;
+    width: calc(100% - 50px);
     margin-top: 2px;
-    padding-right: 20px;
     border-radius: 10px;
+    transform: translateY(-2px);
+
 }
 
-.material-icons {
+div.campo > i.material-icons {
     color: white;
-    padding-right: 10px;
+    padding: 5px;
+    width: 40px;
+    font-size: 1.9em;
     vertical-align: bottom;
 }
 
 #entrar {
-
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 39px;
+    background-color:  rgb(115, 200, 204);
+    border: none;
+    border-radius: 8px;
 }
 
 #esqueci {
     display: block;
+    background-color: white;
+    width: 90%;
+    height: 39px;
+    text-align: center;
+    margin: 8px auto;
+    border-radius: 8px;
+    border: rgb(115, 200, 204) solid 2px;
+}
+
+a#esqueci {
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(45, 80, 82);
+}
+
+a > i.material-icons {
+    font-size: 1em;
+
 }
