@@ -30,8 +30,11 @@ section#login {
     height: 510px;
     border-radius: 20px;
     overflow: hidden;
+    box-shadow: 9px 9px 13px rgba(0, 0, 0, 0.344);
 
     transform: translate(-50%, -50%);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 #img {
@@ -78,6 +81,7 @@ label {
     margin-top: 2px;
     border-radius: 10px;
     transform: translateY(-2px);
+    padding-left: 2px;
 
 }
 
@@ -99,6 +103,7 @@ div.campo > i.material-icons {
     border-radius: 8px;
     cursor: pointer;
     font-size: 1em;
+    
 }
 
 #esqueci {
