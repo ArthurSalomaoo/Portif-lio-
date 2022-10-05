@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balle Bot</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" >
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="Imagens/logo1.png" alt="Logo Ballerini">
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <nav id="intens">
+            <ul>
+                <li><a href="#">Comunidade Ballerini</a></li>
+                <li><a href="#">Tutorial</a></li>
+                <li><a href="#">Open Source</a></li>
+                <li><a href="#">Comandos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <h1>Balle Bot</h1>
+            <p>Deixe a sua comunidade segura de um jeito fácil</p>
+            <input type="button" value="Me adicione!">
+        </div>
+        <img src="Imagens/bot.png" alt="Bot Ballerini">
+        <div>
+            <h2>O que ela faz por você?</h2>
+            <p>1. Cria um sistema de verificação capcha para novos membros garantirem que não são robôs</p>
+            <p>2. Possui um sistema de banimento automático para links suspeitos que forem enviados na comunidade</p>
+            <p>3. Sistema de avisos e banimento manual, para pessoas administradoras utilizarem</p>
+        </div>
+    </main>
+    <footer>
+        <img src="Imagens/ballerini.png" alt="Ballerini Nome">
+    </footer>
+    <script>
+        function clickMenu() {
+            if (intens.style.display == 'block') {
+                intens.style.display = 'none'
+            } else {
+                intens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
