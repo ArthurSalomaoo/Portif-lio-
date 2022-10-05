@@ -21,10 +21,14 @@ body{
 div#menu > img {
     display: inline-block;
     margin: auto;
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.material-icons{
+    
 }
 
 #burguer {
@@ -33,10 +37,13 @@ div#menu > img {
     display: inline-block;
     text-align: center;
     padding: 10px;
+    height: 200px;
+    width: 200px;
     cursor: pointer;
     position: relative;
-    left: 59.1%;
-    vertical-align: top;
+    left: 33%;
+
+    font-size: 50px;
 }
 
 #burguer:hover {
