@@ -10,7 +10,7 @@ background cores #2F2325,#8E5D52
     box-sizing: border-box;
     text-decoration: none;
     font-family: 'Sarala', sans-serif;
-
+    color: white;
 }
 
 body{
@@ -29,7 +29,7 @@ div#menu > img {
 
 #burguer {
     color: white;
-    background-color: #6f4941;
+    background-color: #65423a;
     display: block;
     text-align: center;
     padding: 10px;
@@ -37,7 +37,7 @@ div#menu > img {
 }
 
 #burguer:hover {
-    background-color: #65423a;
+    background-color: #603f38;
 
 }
 
@@ -59,10 +59,37 @@ nav > ul > li > a {
 }
 
 nav > ul > li > a:hover{
-    background-color: rgb(27, 106, 176);
+    background-color: #603f38;
+}
+
+main  {
+    text-align: center;
+}
+
+main > div > h1 {
+    font-size: 2.5em;
+    margin: 10px 0px 5px 0px;
+}
+
+main > div#div2 > h2 {
+    font-size: 1.8em;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+main * > p {
+    font-size: 1.1em;
+} 
+
+div#div2 > p {
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 10px;
 }
 
 
+
 footer{
+    margin-top: 50px;
     text-align: center;
 }
