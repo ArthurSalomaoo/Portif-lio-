@@ -19,7 +19,7 @@ body{
     background: linear-gradient(to top, #2F2325, #8E5D52);
 }
 div#menu > img {
-    display: block;
+    display: inline-block;
     margin: auto;
     width: 150px;
     height: 150px;
@@ -30,10 +30,13 @@ div#menu > img {
 #burguer {
     color: white;
     background-color: #65423a;
-    display: block;
+    display: inline-block;
     text-align: center;
     padding: 10px;
     cursor: pointer;
+    position: relative;
+    left: 59.1%;
+    vertical-align: top;
 }
 
 #burguer:hover {
