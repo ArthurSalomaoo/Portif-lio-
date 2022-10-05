@@ -71,6 +71,15 @@ main > div > h1 {
     margin: 10px 0px 5px 0px;
 }
 
+input {
+    background-color: #ECD6C4;
+    border: none;
+    color: black;
+    padding: 10px 15px 10px 15px;
+    border-radius: 12px;
+    margin-top: 25px;
+}
+
 main > div#div2 > h2 {
     font-size: 1.8em;
     margin-top: 5px;
