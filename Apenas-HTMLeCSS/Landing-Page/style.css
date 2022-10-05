@@ -9,18 +9,27 @@ background cores #2F2325,#8E5D52
     margin: 0px;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: 'Sarala', sans-serif;
 
 }
 
 body{
-    height: 100vh;
-    width: 100vw;
-    background: linear-gradient(78deg, #2F2325, #8E5D52);
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to top, #2F2325, #8E5D52);
+}
+div#menu > img {
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #burguer {
     color: white;
-    background-color: aqua;
+    background-color: #6f4941;
     display: block;
     text-align: center;
     padding: 10px;
@@ -28,8 +37,8 @@ body{
 }
 
 #burguer:hover {
-    background-color: beige;
-    color: black;
+    background-color: #65423a;
+
 }
 
 nav {
@@ -43,10 +52,10 @@ nav > ul {
 nav > ul > li > a {
     display: block;
     padding: 10px;
-    background-color: gray;
+    background-color: #65423a;
     color: white;
     text-align: center;
-    border-top: 2px solid gold;
+    border-top: 1px solid #6f4941;
 }
 
 nav > ul > li > a:hover{
