@@ -87,9 +87,17 @@ div#div2 > p {
     margin-top: 10px;
 }
 
+footer > div#divFooter {
+    height: 3px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.475), 15%, transparent);
+}
 
+footer > img {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
 footer{
-    margin-top: 50px;
+    margin-top: 30px;
     text-align: center;
 }
