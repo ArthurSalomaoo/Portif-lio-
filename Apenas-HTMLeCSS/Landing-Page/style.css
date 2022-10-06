@@ -18,38 +18,56 @@ body{
     width: 100%;
     background: linear-gradient(to top, #2F2325, #8E5D52);
 }
-div#menu > img {
-    display: inline-block;
-    margin: auto;
-    width: 120px;
+
+#menu {
+    text-align: justify;
+    border-bottom: 1px solid white;
     height: 120px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    
 }
 
-.material-icons{
-    
+div#menu > img {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 10px;
+    left: 10px;        
+}
+
+#menu::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 0;
 }
 
 #burguer {
     color: white;
-    background-color: #65423a;
     display: inline-block;
-    text-align: center;
     padding: 10px;
-    height: 200px;
-    width: 200px;
     cursor: pointer;
-    position: relative;
-    left: 33%;
-
     font-size: 50px;
+    position: relative;
+    vertical-align: top;
+    top: 21px;
+    
 }
 
 #burguer:hover {
     background-color: #603f38;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    background-color:#8E5D52;
 
 }
+
+
+
+
 
 nav {
     display: none;
