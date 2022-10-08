@@ -7,8 +7,9 @@
     <title>Balle Bot</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" >
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-querys.css">
 </head>
-<body>
+<body onresize="width()">
     <header>
         <div id="menu">
             <img src="Imagens/logo.png" alt="Logo Ballerini">
@@ -25,12 +26,15 @@
         </nav>
     </header>
     <main>
-        <div>
+        <div id="div1">
             <h1>Balle Bot</h1>
             <p>Deixe a sua comunidade segura de um jeito fácil</p>
             <input type="button" value="Me adicione!">
         </div>
         <img src="Imagens/bot.png" alt="Bot Ballerini">
+        <div id="borda">
+
+        </div>
         <div id="div2">
             <h2>O que ela faz por você?</h2>
             <p>1. Cria um sistema de verificação capcha para novos membros garantirem que não são robôs</p>
@@ -48,6 +52,14 @@
                 intens.style.display = 'none'
             } else {
                 intens.style.display = 'block'
+            }
+        }
+        function width() {
+            if(window.innerWidth >= 800){
+                intens.style.display = 'block'
+            }
+            if (window.innerWidth < 800) {
+                intens.style.display = 'none'
             }
         }
     </script>

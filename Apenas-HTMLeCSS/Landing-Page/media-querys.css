@@ -1,0 +1,111 @@
+@media screen and (min-width: 800px) {
+
+
+
+    #burguer {
+        display: none;
+    }
+
+    header {
+        background-color: transparent;
+        position: unset;
+        
+    }
+    header > div > img {
+        position: fixed;
+        margin-left: calc(100vw - 95vw);
+    }
+
+    nav {
+        display: block;
+    }
+    
+    nav > ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        position: relative;
+        top: -70px;
+        right: 5%;
+    }
+
+    header > nav > ul > li > a {
+        display: inline;
+        background-color: transparent;
+        border: none;
+    }
+
+
+
+    main > div#div1 > p {
+        position: relative;
+        left: 109px;
+    }
+
+    main > div#div1 {
+        float: left;
+        position: relative;
+        left: -75px;
+        top: 4px;
+    }
+
+    main > div#div1 > input {
+        position: relative;
+        left: -29px;
+    }
+
+    main > img {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    div#borda {
+        background: linear-gradient(to right,transparent, white, transparent);
+        width: 300px;
+        height: 1px;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    div#div2 > p {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+
+    header > div > img {
+        position: fixed;
+        margin-left: 250px;
+    }
+
+    main > div#div1 > p {
+        position: relative;
+        left: 109px;
+    }
+
+    main > div#div1 {
+        float: left;
+        position: relative;
+        left: 35px;
+        top: 4px;
+    }
+
+    main > div#div1 > input {
+        position: relative;
+        left: -29px;
+    }
+
+    main > img {
+        position: relative;
+        top: -40px;
+        right: -50px;
+    }
+
+    main > div#div2 {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+}

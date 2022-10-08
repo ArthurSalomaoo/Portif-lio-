@@ -13,11 +13,14 @@ background cores #2F2325,#8E5D52
     color: white;
 }
 
-body{
-    height: 100%;
-    width: 100%;
+body, html{
+    height: 100vh;
     background: linear-gradient(to top, #2F2325, #8E5D52);
+    background-attachment: fixed;
 }
+
+
+
 
 #menu {
     text-align: justify;
@@ -64,8 +67,6 @@ header {
     background-color:#8E5D52;
 
 }
-
-
 
 
 
