@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: #F0F8FF;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    display: block;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+header > h1 {
+    color: #380B61;
+    padding-top: 40px;
+}
+
+header > h2 {
+    font-weight: normal;
+    color: #380B61;
+}
+
+main{
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+    background-color: rgb(55, 55, 92);
+    width: 470px;
+}
+
+h3 {
+    color: #380B61;
+}
+label {
+    color: #380B61;
+
+}
+
+form {
+    margin-left: 40px;
+}
+
+section > h3{
+    display: inline-block;
+}
+
+#nome {
+    padding-bottom: 5px;
+}
+
+#inome {
+    padding-right: 10px;
+}
+
+#sobrenome {
+    margin-left: 127px;
+}
+
+
+#isobrenome {
+    margin-left: 10px;
+    padding-right: 10px;
+}
+
+
+section > #email {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+#iemail{
+    margin-bottom: 20px;
+}
+
+#area {
+    margin-bottom: 15px;
+}
+
+#area > *{
+    margin-bottom: 5px;
+}
+
+select{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+fieldset#tecnologias {
+    margin-top: 10px;
+
+}
