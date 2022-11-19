@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+:root {
+    --black: #4D4C59;
+    --purple: #6C63FF;
+    --light-grey: #C8C8C8;
+    --text-color: #9C9AB6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+#foguete{
+    display: block;
+    margin: auto;
+    padding-top: 30px;
+}
+
+main {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+h1 {
+    color: var(--purple);
+}
