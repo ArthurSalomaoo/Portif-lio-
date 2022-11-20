@@ -48,7 +48,7 @@ div#tiposDeTempo > p {
 div#tiposDeTempo > p:last-of-type {
 }   
 
-div#tempo > span {
+span#tempo {
     font-size: 50px;
 }
 
