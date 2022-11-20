@@ -10,6 +10,9 @@
 * {
     margin: 0;
     padding: 0;
+    text-align: none;
+    border: none;
+    box-sizing: border-box;
 }
 
 body {
@@ -29,4 +32,39 @@ main {
 }
 h1 {
     color: var(--purple);
+}
+
+div#tiposDeTempo {
+    padding-left: 50px;
+}
+
+div#tiposDeTempo > span {
+    font-size: 14px;
+    color: var(--light-grey);
+    margin-right: 35px;
+}
+
+div#tiposDeTempo > span:last-of-type {
+    margin-left: -15px;
+}   
+
+div#tempo > span {
+    font-size: 50px;
+}
+
+
+main p:last-of-type {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: var(--light-grey);
+    font-size: 0.8em;
+}
+
+main > button {
+    background-color: var(--purple);
+    color: #ffffff;
+    border-radius: 10px;
+    margin-top: 15px;
+    width: 130px;
+    height:30px;
+
 }
