@@ -35,17 +35,17 @@ h1 {
 }
 
 div#tiposDeTempo {
-    padding-left: 50px;
+    padding-left: 55px;
 }
 
-div#tiposDeTempo > span {
+div#tiposDeTempo > p {
+    display: inline;
     font-size: 14px;
     color: var(--light-grey);
-    margin-right: 35px;
+    margin-right: 25px;
 }
 
-div#tiposDeTempo > span:last-of-type {
-    margin-left: -15px;
+div#tiposDeTempo > p:last-of-type {
 }   
 
 div#tempo > span {
