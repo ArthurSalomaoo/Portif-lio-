@@ -1,11 +1,31 @@
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+@charset "UTF-8";
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 900px) {
+    #foguete {
+        position: relative;
+        float: right;
+        top: 50%;
+        transform: translateY(-50%);      
+        margin-right: 10%;
+        background-size: 364px 344px;
+        width: 365px;
+        height: 345px;
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+    }
+    main {
+        position: relative;
+        float: left;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-left: 10%;
+    }
+}
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1150px) {
+    #foguete { 
+        margin-right: 18%;
+    }
+    main {
+        margin-left: 18%;
+    }
+}
