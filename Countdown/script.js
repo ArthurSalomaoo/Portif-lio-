@@ -26,7 +26,7 @@ function contagem() {
         
         
         
-        let formato = (dd < 10 ? '0' + dd : dd) + ':' + (hh < 10 ? '0' + hh : hh) + ':' + (mm < 10 ? '0' + mm : mm) + ':' + (ss < 10 ? '0' + ss : ss )    
+        let formato = (dd < 10 ?  '0' + dd : dd) + ' : ' + (hh < 10 ? '0' + hh : hh) + ' : ' + (mm < 10 ? '0' + mm : mm) + ' : ' + (ss < 10 ? '0' + ss : ss )    
         document.getElementById('tempo').innerHTML = formato
      }, mile)
 }
