@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+
+:root {
+    --title: #fffcf9;
+    --subtitle: #b3b3b3;
+    --bg-button: #e9e6e3;
+    --background: linear-gradient(43deg, #102d71 0%, #000000 52%, #c12a23 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    background: var(--background);
+    background-attachment: fixed;
+}
+
+#fotoTopo {
+    display: block;
+    width: 135px;
+    height: 125px;
+    margin: auto;
+}
+
+h1 {
+    color: var(--title);
+    text-align: center;
+    padding: 0 15px;
+}
+
+
+
+img#fotoFilme {
+    display: block;
+    margin: auto;
+    width: 171px;
+    height: 245px;
+}
+
+#tituloFilme {
+    color: var(--title);
+    font-size: 1.2em;
+    text-align: center;
+}
+
+p#sinopse {
+    color: var(--subtitle);
+    font-size: 0.83em;
+    padding: 0 30px;
+    text-align: center;
+}
+
+button {
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 34px;
+    vertical-align: middle;
+    border-radius: 5px;
+    background-color: var(--bg-button);
+    font-weight: 500;
+}
+button > img {
+    vertical-align: middle;
+    height: 18px;
+    width: 20px;
+}
+
+
+footer {
+    color: var(--subtitle);
+    text-align: center;
+    font-size: 0.9em;
+}
