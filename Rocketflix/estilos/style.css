@@ -47,6 +47,10 @@ img#fotoFilme {
     height: 245px;
 }
 
+#filme {
+    display: none;
+}
+
 #tituloFilme {
     color: var(--title);
     font-size: 1.2em;
