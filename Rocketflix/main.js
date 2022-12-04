@@ -8,9 +8,8 @@ function getFilme(){
 
     let id = Math.floor(Math.random() * 1000)
 
-    const URL = `https://api.themoviedb.org/3/movie/${id}?api_key=52049f468d48721a1489c682170d7877`;
+    const URL = `https://api.themoviedb.org/3/movie/${id}?api_key=52049f468d48721a1489c682170d7877&language=pt-BR`;
     const IMG_URL = 'https://image.tmdb.org/t/p/w500';
-    const language = 'language=pt-BR';
 
     axios.get(URL)
     .then(data => {
@@ -19,9 +18,12 @@ function getFilme(){
         document.getElementById('fotoFilme').setAttribute('src', IMG_URL + data.data.poster_path)
         document.getElementById('tituloFilme').innerHTML = data.data.original_title
         document.getElementById('sinopse').innerHTML = data.data.overview
+        if(!data.data.overview.length){
+            document.getElementById('sinopse').innerHTML = "Sinopse não encontrada"
 
-        
+        }
     })
+
     .catch(error => {
         console.log(error)
         window.alert('Tente novamente')

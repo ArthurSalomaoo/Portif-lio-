@@ -78,6 +78,7 @@ button {
     border-radius: 6px;
     background-color: var(--bg-button);
     font-weight: 600;
+    cursor: pointer;
 }
 
 button > img {
