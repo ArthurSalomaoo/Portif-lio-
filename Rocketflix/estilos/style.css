@@ -26,22 +26,23 @@ body {
 
 #fotoTopo {
     display: block;
-    width: 135px;
-    height: 125px;
+    width: 90px;
+    height: 80px;
     margin: auto;
+    margin-top: 20px;
 }
 
 h1 {
     color: var(--title);
     text-align: center;
     padding: 0 15px;
+    margin-top: 25px;
 }
-
-
 
 img#fotoFilme {
     display: block;
     margin: auto;
+    margin-top: 20px;
     width: 171px;
     height: 245px;
 }
@@ -50,34 +51,45 @@ img#fotoFilme {
     color: var(--title);
     font-size: 1.2em;
     text-align: center;
+    margin-top: 15px;
 }
 
 p#sinopse {
     color: var(--subtitle);
-    font-size: 0.83em;
+    font-size: 0.84em;
+    font-weight: 500;
     padding: 0 30px;
     text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 345px;
 }
 
 button {
     display: block;
     margin: auto;
-    width: 150px;
-    height: 34px;
-    vertical-align: middle;
-    border-radius: 5px;
+    margin-top: 20px;
+    width: 160px;
+    height: 39px;
+    border-radius: 6px;
     background-color: var(--bg-button);
-    font-weight: 500;
+    font-weight: 600;
+
 }
+
+
 button > img {
     vertical-align: middle;
-    height: 18px;
-    width: 20px;
+    height: 22px;
+    width: 28px;
+    margin-right: 5px;
 }
 
-
 footer {
+    margin: 20px;
+    text-align: center;
     color: var(--subtitle);
     text-align: center;
-    font-size: 0.9em;
+    font-weight: 400;
+    font-size: 0.85em;
 }
