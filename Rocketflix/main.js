@@ -26,7 +26,7 @@ function getFilme(){
 
     .catch(error => {
         console.log(error)
-        window.alert('Tente novamente')
+        window.alert('Filme não encontrado, tente novamente')
         if(document.getElementById('filme').style = 'display: block'){
             document.getElementById('filme').style = 'display: none'
         }
