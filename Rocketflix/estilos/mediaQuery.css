@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+@media only screen and (min-width: 700px) {
+
+    #filme {
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+
+    img#fotoFilme {
+        display: block;
+        width: 171px;
+        height: 245px;
+        display: inline-block;
+        margin-left: 60px;
+    }
+
+    
+    
+    #infoFilme {
+        display: inline-block;
+    }
+    
+    #tituloFilme {
+        color: var(--title);
+        font-size: 1.2em;
+        text-align: center;
+        margin-top: 15px;
+    }
+    
+    p#sinopse {
+        color: var(--subtitle);
+        font-size: 0.85em;
+        font-weight: 500;
+        padding: 0 30px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 10px;
+        width: 440px;
+        display: inline-block;
+    }
+
+}
+
+/*
+
+ Medium devices (landscape tablets, 768px and up)
+@media only screen and (min-width: 768px) {
+
+}
+
+
+ Large devices (laptops/desktops, 992px and up) 
+@media only screen and (min-width: 992px) {
+
+}
+
+ Extra large devices (large laptops and desktops, 1200px and up) 
+@media only screen and (min-width: 1200px) {
+
+}*/

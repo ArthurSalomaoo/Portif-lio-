@@ -39,6 +39,10 @@ h1 {
     margin-top: 25px;
 }
 
+#filme {
+    /*display: none;*/
+}
+
 img#fotoFilme {
     display: block;
     margin: auto;
@@ -47,9 +51,6 @@ img#fotoFilme {
     height: 245px;
 }
 
-#filme {
-    display: none;
-}
 
 #tituloFilme {
     color: var(--title);
