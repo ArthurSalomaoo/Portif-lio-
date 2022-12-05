@@ -6,27 +6,27 @@
         display: block;
         margin: auto;
         text-align: center;
+        margin-top: 10px;
     }
 
     img#fotoFilme {
         display: block;
-        width: 171px;
-        height: 245px;
+        width: 181px;
+        height: 255px;
         display: inline-block;
         margin-left: 60px;
     }
-
-    
-    
+        
     #infoFilme {
         display: inline-block;
+        vertical-align: top;
     }
     
     #tituloFilme {
         color: var(--title);
         font-size: 1.2em;
-        text-align: center;
-        margin-top: 15px;
+        margin: 15px 0 0 31px;
+        text-align: left;
     }
     
     p#sinopse {
