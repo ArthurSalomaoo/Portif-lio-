@@ -137,8 +137,11 @@ div#parte1 {
 #teclado {
     margin: auto;
     background:#6496c5;
-    height: 350px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    
+    height: 372px;
+}
+
+#igual {
+    position: relative;
+    top: 10px;
+    font-size: 23px;
 }
