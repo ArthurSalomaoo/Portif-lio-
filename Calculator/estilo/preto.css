@@ -186,7 +186,7 @@ div#parte1 {
 
 #conjunto2 {
     background: rgba(5, 5, 5, 0.3);
-    height: 310px;
+    height: 300px;
     width: 55px;
     position: absolute;
     left: 73%;
@@ -223,7 +223,7 @@ div#parte1 {
 
 footer {
     width: 130px;
-    background: #6396C5;
+    background: #043c72c2;
     height: 5px;
     position: absolute;
     top: 95%;
