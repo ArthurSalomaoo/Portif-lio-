@@ -36,7 +36,9 @@ button {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(5, 5, 5, 0.3);
+        color: #fff;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.05);
 
 }
 
@@ -130,11 +132,12 @@ div#parte1 {
     margin: auto;  
     font-size: 25px;
     font-weight: 500;
+    color: #fff;
 }
 
 #equacao {
     font-size: 14px;
-    color: #37373787;
+    color: #ffffff92;
     text-align: end;
     margin: auto;
     width: 238px;
@@ -146,14 +149,13 @@ div#parte1 {
 }
 
 #teclado {
-    margin: auto;
-    
+    margin: auto;    
     height: 372px;
     margin-top: 10px;
     height: 352px;
     border-radius: 20px;
-    background: linear-gradient(244.38deg, #9EE8FF 8.14%, #5ACEFF 27.9%, #79AFFF 56.94%);}
-
+    background: linear-gradient(220.38deg,  #012c5a 10.9%, #072e67 30.94%, #010f32 90.11%);
+}
 #igual {
     position: relative;
     top: 2px;
@@ -162,7 +164,7 @@ div#parte1 {
 }
 
 #conjunto1{
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(5, 5, 5, 0.3);
     width: 170px;
     height: 50px;
     display: flex;
@@ -183,7 +185,7 @@ div#parte1 {
 
 
 #conjunto2 {
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(5, 5, 5, 0.3);
     height: 310px;
     width: 55px;
     position: absolute;
