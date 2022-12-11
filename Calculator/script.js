@@ -10,7 +10,12 @@ chk.addEventListener('change', () => {
     } else {
         estilo.setAttribute('href', 'estilo/style.css')
         document.getElementById('historicoimg').setAttribute('src', 'imagens/historico.svg')
-
     }
 })
 
+function inserir(num) {
+    if(parseInt(num))
+    document.getElementById('resultado').innerHTML = num
+    else
+    document.getElementById('equacao').innerHTML = document.getElementById('equacao') + num
+}

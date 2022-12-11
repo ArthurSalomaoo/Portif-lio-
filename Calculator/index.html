@@ -11,13 +11,11 @@
 <body>
 
     <main id="calculadora">
-            <div id="parte1">
-                <div id="divNone">
-                    <!--Aqui fica uma div ivisivel-->
-                </div>
-                <div id="toogle">
-                    <label>
-                        <input type="checkbox" id="checkbox">
+        <div id="parte1">
+            <div id="divNone"><!--Aqui fica uma div ivisivel--></div>
+            <div id="toogle">
+                <label>
+                    <input type="checkbox" id="checkbox">
                         <div id="slider">
                             <img src="imagens/sol.svg" alt="sol" id="sol">
                             <img src="imagens/lua.svg" alt="lua">
@@ -32,7 +30,7 @@
                 </div>
                 <div id="parte2">
                     <div id="equacao">
-                        1000 x 2 + 2 x 2
+                        2
                     </div>
                     <div id="divResultado">
                         <div id="igual">
@@ -45,70 +43,70 @@
                     
                     <div id="teclado">
                         <div id="conjunto1">
-                            <button>
+                            <button  onclick="apagar()">
+                                C
+                            </button>
+                            <button onclick="limpar()">
                                 AC
                             </button>
-                            <button>
-                                +/-
-                            </button>
-                            <button>
+                            <button onclick="inserir('%')">
                                 %
                             </button>
                         </div>
 
                         <div id="conjunto2">
-                            <button>
+                            <button onclick="inserir('/')">
                                 /
                             </button>
-                            <button>
+                            <button onclick="inserir('*')">
                                 x
                             </button>
-                            <button>
+                            <button onclick="inserir('-')">
                                 -
                             </button>
-                            <button id="mudaEstilo">
+                            <button onclick="inserir('+')">
                                 +
                             </button>
-                            <button>
+                            <button onclick="calcular('=')">
                                 =
                             </button>
                         </div>
 
                         <div id="numeros">
-                            <button>
+                            <button onclick="inserir('1')">
                                 1
                             </button>
-                            <button>
+                            <button onclick="inserir('2')">
                                 2
                             </button>
-                            <button>
+                            <button onclick="inserir('3')">
                                 3
                             </button>
-                            <button>
+                            <button onclick="inserir('4')">
                                 4
                             </button>
-                            <button>
+                            <button onclick="inserir('5')">
                                 5
                             </button>
-                            <button>
+                            <button onclick="inserir('6')">
                                 6
                             </button>
-                            <button>
+                            <button onclick="inserir('7')">
                                 7
                             </button>
-                            <button>
+                            <button onclick="inserir('8')">
                                 8
                             </button>
-                            <button>
+                            <button onclick="inserir('9')">
                                 9
                             </button>
-                            <button>
+                            <button onclick="inserir('.')">
                                 .
                             </button>
-                            <button>
+                            <button onclick="inserir('0')">
                                 0
                             </button>
-                            <button>
+                            <button  onclick="inserir('00')">
                                 00
                             </button>
                         </div>

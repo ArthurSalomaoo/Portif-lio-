@@ -15,6 +15,8 @@ body {
     max-height: 100vh;
     max-width: 100vw;
     background-color: #000000;
+    
+    
 }
 
 main {
@@ -138,6 +140,7 @@ div#parte1 {
     text-align: end;
     margin: auto;
     width: 238px;
+    height: 17px;
 }
 
 #parte2{
