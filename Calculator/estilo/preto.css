@@ -129,12 +129,14 @@ div#parte1 {
 #divResultado {
     display: flex;
     justify-content: space-between;
-    width: 240px; 
+    width: 240px;
+    height: 36.5px;
     margin: auto;  
     font-size: 25px;
     font-weight: 500;
     color: #fff;
 }
+
 
 #equacao {
     font-size: 14px;

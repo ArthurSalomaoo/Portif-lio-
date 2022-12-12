@@ -1,5 +1,5 @@
-let chk = document.querySelector("#checkbox")
-let estilo = document.querySelector("#estilo")
+const chk = document.querySelector("#checkbox")
+const estilo = document.querySelector("#estilo")
 
 
 chk.addEventListener('change', () => {
@@ -13,9 +13,25 @@ chk.addEventListener('change', () => {
     }
 })
 
+
 function inserir(num) {
-    if(parseInt(num))
-    document.getElementById('resultado').innerHTML = num
-    else
-    document.getElementById('equacao').innerHTML = document.getElementById('equacao') + num
+
+    let resultado = document.getElementById('resultado').innerHTML
+    document.getElementById('resultado').innerHTML = resultado + num
+
+}
+
+function calcular() {
+    let resultado = document.getElementById('resultado').innerHTML
+    if(resultado) {
+        document.getElementById('resultado').innerHTML = eval(resultado)
+    }
+}
+
+function limpar() {
+    document.getElementById('resultado').innerHTML = '';
+}
+
+function apagar() {
+    document.getElementById('resultado').innerHTML = resultado.textContent.substring(0, resultado.textContent.length -1)
 }

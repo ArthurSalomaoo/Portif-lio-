@@ -12,7 +12,9 @@
 
     <main id="calculadora">
         <div id="parte1">
-            <div id="divNone"><!--Aqui fica uma div ivisivel--></div>
+            <div id="divNone">
+                <!--Aqui fica uma div ivisivel-->
+            </div>
             <div id="toogle">
                 <label>
                     <input type="checkbox" id="checkbox">
@@ -23,97 +25,96 @@
                             </button>
                         </div>
                     </label>
-                </div>
-                <button id="historico">
-                    <img src="imagens/historico.svg" alt="historico" id="historicoimg">
-                </button>
-                </div>
-                <div id="parte2">
-                    <div id="equacao">
-                        2
-                    </div>
-                    <div id="divResultado">
-                        <div id="igual">
-                            =
-                        </div>
-                        <div id="resultado">
-                            2004
-                        </div>
-                    </div>
-                    
-                    <div id="teclado">
-                        <div id="conjunto1">
-                            <button  onclick="apagar()">
-                                C
-                            </button>
-                            <button onclick="limpar()">
-                                AC
-                            </button>
-                            <button onclick="inserir('%')">
-                                %
-                            </button>
-                        </div>
-
-                        <div id="conjunto2">
-                            <button onclick="inserir('/')">
-                                /
-                            </button>
-                            <button onclick="inserir('*')">
-                                x
-                            </button>
-                            <button onclick="inserir('-')">
-                                -
-                            </button>
-                            <button onclick="inserir('+')">
-                                +
-                            </button>
-                            <button onclick="calcular('=')">
-                                =
-                            </button>
-                        </div>
-
-                        <div id="numeros">
-                            <button onclick="inserir('1')">
-                                1
-                            </button>
-                            <button onclick="inserir('2')">
-                                2
-                            </button>
-                            <button onclick="inserir('3')">
-                                3
-                            </button>
-                            <button onclick="inserir('4')">
-                                4
-                            </button>
-                            <button onclick="inserir('5')">
-                                5
-                            </button>
-                            <button onclick="inserir('6')">
-                                6
-                            </button>
-                            <button onclick="inserir('7')">
-                                7
-                            </button>
-                            <button onclick="inserir('8')">
-                                8
-                            </button>
-                            <button onclick="inserir('9')">
-                                9
-                            </button>
-                            <button onclick="inserir('.')">
-                                .
-                            </button>
-                            <button onclick="inserir('0')">
-                                0
-                            </button>
-                            <button  onclick="inserir('00')">
-                                00
-                            </button>
-                        </div>
-                        <footer>
-                        </footer>
-                    </div>
             </div>
+            <button id="historico">
+                <img src="imagens/historico.svg" alt="historico" id="historicoimg">
+            </button>
+        </div>
+        <div id="parte2">
+            <div id="equacao">
+                
+            </div>
+            <div id="divResultado">
+                <div id="igual">
+                    =
+                </div>
+                <div id="resultado">
+                </div>
+            </div>
+
+            <div id="teclado">
+                <div id="conjunto1">
+                    <button  onclick="apagar()">
+                        C
+                    </button>
+                    <button onclick="limpar()">
+                        AC
+                    </button>
+                    <button onclick="inserir('%')">
+                        %
+                    </button>
+                </div>
+
+                <div id="conjunto2">
+                    <button onclick="inserir('/')">
+                        /
+                    </button>
+                    <button onclick="inserir('*')">
+                        x
+                    </button>
+                    <button onclick="inserir('-')">
+                        -
+                    </button>
+                    <button onclick="inserir('+')">
+                        +
+                    </button>
+                    <button onclick="calcular()">
+                        =
+                    </button>
+                </div>
+
+                <div id="numeros">
+                    <button onclick="inserir('1')">
+                        1
+                    </button>
+                    <button onclick="inserir('2')">
+                        2
+                    </button>
+                    <button onclick="inserir('3')">
+                        3
+                    </button>
+                    <button onclick="inserir('4')">
+                        4
+                    </button>
+                    <button onclick="inserir('5')">
+                        5
+                    </button>
+                    <button onclick="inserir('6')">
+                        6
+                    </button>
+                    <button onclick="inserir('7')">
+                        7
+                    </button>
+                    <button onclick="inserir('8')">
+                        8
+                    </button>
+                    <button onclick="inserir('9')">
+                        9
+                    </button>
+                    <button onclick="inserir('.')">
+                        .
+                    </button>
+                    <button onclick="inserir('0')">
+                        0
+                    </button>
+                    <button  onclick="inserir('00')">
+                        00
+                    </button>
+                </div>
+                <footer>
+                </footer>
+            </div>
+        </div>
     </main>
     <script src="script.js"></script>
 </body>

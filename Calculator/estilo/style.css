@@ -129,6 +129,7 @@ div#parte1 {
     display: flex;
     justify-content: space-between;
     width: 240px; 
+    height: 36.5px;
     margin: auto;  
     font-size: 25px;
     font-weight: 500;
