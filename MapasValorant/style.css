@@ -29,6 +29,8 @@ button {
     background-color: #04D976;
     cursor: pointer;
     border-radius: 15px;
+    font-size: 1.1rem;
+    font-weight: 600;
 }
 
 button:hover {
@@ -42,11 +44,12 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 35px;
+    position: absolute;
 }
 
 
 img {
-    width: 350px;
+    width: 300px;
     margin: 8px;
     border-radius: 10px;
 }
@@ -88,13 +91,9 @@ div:hover .nomeMapa{
     text-align: center;
 }
 
-/*
-
-se for selecionado
-    position: absolute;
-    display: block;
-    margin: auto;
+#teste {
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-*/
+}
