@@ -78,9 +78,14 @@ div:hover .nomeMapa{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color:#04D976;
+    color: #314259;
     font-size: 2rem;
-    
+    background-color: rgba(255, 255, 255, 0.505);
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    font-weight: 600;
+    text-align: center;
 }
 
 /*
