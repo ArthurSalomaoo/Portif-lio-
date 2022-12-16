@@ -35,21 +35,13 @@ button:hover {
     box-shadow: 0 3px 12px 2px rgba(0, 0, 0, 0.312);
 }
 
-.div1 {
-    margin-top: 40px;
-}
-
-.nomeMapas {
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
-}
 
 main {
     text-align: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 35px;
 }
 
 
@@ -62,6 +54,33 @@ img {
 img:hover {
     /*border: solid 5px #04D976;*/
     box-shadow: 0 0 10px 6px  #04D976;
+}
+
+img[alt]:not([alt="Mapa-Ascent"]):hover {
+    content: 'Ascent';
+    color: #04D976;
+    background-color: #04D976;
+    font-size: 100px;
+}
+
+div {
+    position: relative;
+}
+
+.nomeMapa {
+    display: none;
+    position: relative;
+}
+
+div:hover .nomeMapa{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#04D976;
+    font-size: 2rem;
+    
 }
 
 /*
