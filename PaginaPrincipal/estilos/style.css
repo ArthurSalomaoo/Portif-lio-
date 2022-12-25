@@ -18,9 +18,8 @@ body {
 }
 
 main {
-    margin-left: 25px;
+    margin-left: 5vw;
 }
-
 
 .gitLinkedin {
     display: flex;
@@ -185,18 +184,24 @@ h2 {
     margin-top: 50px;
 }
 
-.projetos {
-    max-width: 380px;
+
+.displayFlex {
+    display: flex;
+    flex-wrap: wrap;
 }
 
+
 .projeto {
-    margin-top: 20px;
     border: 1px solid #7B4AE2;
     border-radius: 15px;
+    width: 330px;
+    margin: auto;
+    margin-top: 20px;
 }
 
 .projeto > a > img {
-    width: 100%;
+    width: 90%;
+    margin: auto;
 }
 
 .projeto > h3 {
@@ -231,9 +236,39 @@ h2 {
 .projeto > a {
     display: block;
     margin: 25px auto;
-    width: 330px;
+    width: 320px;
 }
 
 .projeto > a > img {
-    height: 300px;
+    height: 180px;
+}
+
+.skills > .topicos {
+    margin-top: 50px;
+}
+
+.divSkills > h2 {
+    width: 190px;
+}
+
+.divSkills > p {
+    color: #ffffff80;
+}
+
+.divSkills > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divSkills > div > img {
+    width: 50px;
+    height: 50px;
+    margin: 0 20px;
+
+}
+
+.divSkills > p {
+    text-align: center;
+    margin: 20px 0;
 }
