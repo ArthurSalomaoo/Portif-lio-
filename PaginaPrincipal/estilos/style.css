@@ -118,21 +118,21 @@ h2 {
     margin-left: 5px;
 }
 
-#sobreMim {
-    max-width: 450px;
+.sobreMim {
+    max-width: 430px;
     text-align: justify;
 }
 
-#sobreMim > h2 {
+.sobreMim > h2 {
     margin: 10px 0 10px 0;
 }
 
-#sobreMim p {
+.sobreMim p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 1.05rem;
 }
 
-#sobreMim h3{
+.sobreMim h3{
     color: #fff;
 }
 
@@ -146,12 +146,37 @@ h2 {
 
 #escolaECursos {
     display: flex;
-    width: 400px;
-    overflow: hidden;
+    flex-direction: column;
 }
 
-#escolaECursos > div{
+.cursos {
     border: #7B4AE2 1px solid;
-    height: 200px;
-    width: 500px;
+    max-width: 430px;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+.cursos > p{
+    margin: 0 10px;
+}
+
+.cursos > h3 {
+    font-size: 1.2em;
+    margin: 10px 10px 5px 10px;
+}
+
+.cursos > p {
+    font-size: 0.9em;
+}
+
+.tempo {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+}
+
+.tempo > p{
+    font-size: 0.9em;
+    color: #7B4AE2;
 }
