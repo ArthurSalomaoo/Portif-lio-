@@ -97,7 +97,7 @@ h2 {
 #links > div > a {
     color: #7B4AE280;
     font-weight: 400;
-    font-size: 1.1rem;
+    font-size: 1.1em;
 }
 
 
@@ -179,4 +179,61 @@ h2 {
 .tempo > p{
     font-size: 0.9em;
     color: #7B4AE2;
+}
+
+.projetos > .topicos{
+    margin-top: 50px;
+}
+
+.projetos {
+    max-width: 380px;
+}
+
+.projeto {
+    margin-top: 20px;
+    border: 1px solid #7B4AE2;
+    border-radius: 15px;
+}
+
+.projeto > a > img {
+    width: 100%;
+}
+
+.projeto > h3 {
+    color: #fff;
+    margin-top: 10px;
+}
+
+.projeto > h3, .projeto > p, .projeto > div > div:first-of-type{
+    margin-left: 25px;
+}
+
+.projeto > p {
+    color: #ffffff80;
+    font-size: 0.9em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.projeto > div {
+    display: flex;
+    align-items: baseline;
+}
+
+.projeto > div > div {
+    padding: 5px 20px;
+    color: #7B4AE2;
+    background: #7b4ae21a;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+
+.projeto > a {
+    display: block;
+    margin: 25px auto;
+    width: 330px;
+}
+
+.projeto > a > img {
+    height: 300px;
 }
