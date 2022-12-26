@@ -33,7 +33,7 @@ main {
     height: 45px;
 }
 
-body:first-of-type img {
+body > img:first-of-type {
     display: block;
     margin: auto;
 }
@@ -68,20 +68,20 @@ h2 {
     font-weight: 400;
 }
 
-#links {
+.links {
     margin-top: 15px;
     margin-bottom: 20px;
     display: flex;
     align-items: center;
 }
 
-#links > a {
+.links > a {
     color: #7B4AE280;
     font-weight: 400;
     font-size: 1.1rem;
 }
 
-#links > div{
+.links > div{
     color: #7B4AE280;
     border: #7B4AE280 1px solid;
     height: 45px;
@@ -93,27 +93,27 @@ h2 {
     align-items: center;
 }
 
-#links > div > a {
+.links > div > a {
     color: #7B4AE280;
     font-weight: 400;
     font-size: 1.1em;
 }
 
 
-#links > a:first-child {
+.links > a:first-child {
     margin-right: 15px;
 }
 
 
-#links > a > img {
+.links > a > img {
     display: inline-block;
     vertical-align: middle;
 }
-#links > div > a > img {
+.links > div > a > img {
     display: inline-block;
     vertical-align: middle;
 }
-#links > a:first-child > img {
+.links > a:first-child > img {
     margin-left: 5px;
 }
 
@@ -271,4 +271,64 @@ h2 {
 .divSkills > p {
     text-align: center;
     margin: 20px 0;
+}
+
+.contatos {
+    margin-top: 30px;
+}
+
+.contatos > h2 {
+    margin-top: 20px;
+    width: 50px;
+}
+
+.contatos > h3 {
+ color: #7B4AE2;
+}
+
+.contatos > p {
+    color: #FFFFFF80;
+    display: inline-block;
+}
+
+.contatos > img:last-of-type {
+    vertical-align: middle;
+}
+
+.voltarTopo{
+    color: #7B4AE280;
+    margin: 10px 0 20px 0;
+    display: flex;
+}
+
+footer > div {
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: baseline;
+    width: 110px;
+    margin: auto;
+}
+
+footer > div > a {
+    text-align: center;
+    display: inline-block;
+}
+
+footer > div > a > img {
+    height: 40px;
+    width: 40px;
+}
+
+footer > p {
+    color: #ffffff80;
+    padding-bottom: 15px;
+}
+
+footer {
+    text-align: center;
+    background-color: #7B4AE21A;    ;
+    height: 115px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
