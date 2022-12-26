@@ -10,6 +10,10 @@
     text-decoration: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     max-height: 100vh;
@@ -57,13 +61,14 @@ h2 {
     color: #fff;
 }
 
-#saudacoes > h2 {
+.saudacoes > h2 {
     margin-top: 5px;
     font-size: 2rem;
     line-height: 40px;
+    width: 250px;
 }
 
-#saudacoes > h3{
+.saudacoes > h3{
     color: rgba(255, 255, 255, 0.5);
     font-weight: 400;
 }
@@ -118,14 +123,13 @@ h2 {
 }
 
 .sobreMim {
-    max-width: 430px;
+    max-width: 420px;
     text-align: justify;
 }
 
-.sobreMim > h2 {
-    margin: 10px 0 10px 0;
+.sobreMim > p:first-of-type {
+    margin-top: 15px;
 }
-
 .sobreMim p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 1.05rem;
@@ -327,7 +331,7 @@ footer > p {
 
 footer {
     text-align: center;
-    background-color: #7B4AE21A;    ;
+    background-color: #7B4AE21A;
     height: 115px;
     display: flex;
     flex-direction: column;
