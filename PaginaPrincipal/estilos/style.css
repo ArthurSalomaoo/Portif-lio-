@@ -130,6 +130,7 @@ h2 {
 .sobreMim > p:first-of-type {
     margin-top: 15px;
 }
+
 .sobreMim p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 1.05rem;
@@ -143,8 +144,18 @@ h2 {
     margin: 50px 0 30px 0;
 }
 
+.areaAcademica > h3 {
+    max-width: 100px;
+}
+
 .areaAcademica > p {
     margin-top: 8px;
+}
+
+.cursosExtras {
+    border: 0; margin-top: 50px; 
+    max-width: 100px;
+    font-size: 1.17em;
 }
 
 .escolaECursos {
@@ -294,16 +305,16 @@ h2 {
     width: 50px;
 }
 
-.contatos > h3 {
+.email > h3 {
  color: #7B4AE2;
 }
 
-.contatos > p {
+.email > p {
     color: #FFFFFF80;
     display: inline-block;
 }
 
-.contatos > img:last-of-type {
+.email > img:last-of-type {
     vertical-align: middle;
 }
 
