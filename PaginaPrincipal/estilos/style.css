@@ -2,6 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
 
+:root {
+    --tamanhoMobile: 80vw;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -21,25 +25,17 @@ body {
     background-color: #090E16; 
 }
 
-main {
-    margin-left: 4.1vw;
-}
-
 .gitLinkedin {
     display: flex;
     justify-content: space-around;
     width: 120px;
     margin: auto;
     margin-top: 20px;
+    
 }
 
 .gitLinkedin > a > img{
     height: 45px;
-}
-
-body > img:first-of-type {
-    display: block;
-    margin: auto;
 }
 
 .topicos {
@@ -61,14 +57,19 @@ h2 {
     color: #fff;
 }
 
-.saudacoes > h2 {
+.saudacoes {
+    margin: 20px auto 20px auto;
+    max-width: var(--tamanhoMobile);
+}
+
+.saudacoes > div > h2 {
     margin-top: 5px;
     font-size: 2rem;
     line-height: 40px;
     width: 250px;
 }
 
-.saudacoes > h3{
+.saudacoes > div > h3{
     color: rgba(255, 255, 255, 0.5);
     font-weight: 400;
 }
@@ -86,7 +87,7 @@ h2 {
     font-size: 1.1rem;
 }
 
-.links > div{
+.botaoWaths{
     color: #7B4AE280;
     border: #7B4AE280 1px solid;
     height: 45px;
@@ -98,12 +99,11 @@ h2 {
     align-items: center;
 }
 
-.links > div > a {
+.botaoWaths > a {
     color: #7B4AE280;
     font-weight: 400;
     font-size: 1.1em;
 }
-
 
 .links > a:first-child {
     margin-right: 15px;
@@ -113,17 +113,17 @@ h2 {
 .links > a > img {
     display: inline-block;
     vertical-align: middle;
-}
-.links > div > a > img {
-    display: inline-block;
-    vertical-align: middle;
-}
-.links > a:first-child > img {
     margin-left: 5px;
 }
 
+.botaoWaths > a > img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
 .sobreMim {
-    max-width: 420px;
+    max-width: var(--tamanhoMobile);
+    margin: auto;
     text-align: justify;
 }
 
@@ -139,17 +139,18 @@ h2 {
     color: #fff;
 }
 
-#areaAcademica {
+.areaAcademica {
     margin: 50px 0 30px 0;
 }
 
-#areaAcademica > p {
+.areaAcademica > p {
     margin-top: 8px;
 }
 
-#escolaECursos {
+.escolaECursos {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .cursos {
@@ -161,15 +162,12 @@ h2 {
 
 .cursos > p{
     margin: 0 10px;
+    font-size: 0.9em;
 }
 
 .cursos > h3 {
     font-size: 1.2em;
     margin: 10px 10px 5px 10px;
-}
-
-.cursos > p {
-    font-size: 0.9em;
 }
 
 .tempo {
@@ -184,23 +182,26 @@ h2 {
     color: #7B4AE2;
 }
 
-.projetos > .topicos{
-    margin-top: 50px;
+.projetos {
+    margin: 40px auto 0 auto;
+    max-width: var(--tamanhoMobile);
 }
 
+.projetos > h2:first-of-type {
+    text-align: center;
+}
 
 .displayFlex {
     display: flex;
     flex-wrap: wrap;
 }
 
-
 .projeto {
     border: 1px solid #7B4AE2;
     border-radius: 15px;
-    width: 330px;
     margin: auto;
     margin-top: 20px;
+    max-width: 350px;
 }
 
 .projeto > a > img {
@@ -247,6 +248,11 @@ h2 {
     height: 180px;
 }
 
+.skills {
+    max-width: var(--tamanhoMobile);
+    margin: auto;
+}
+
 .skills > .topicos {
     margin-top: 50px;
 }
@@ -279,7 +285,8 @@ h2 {
 }
 
 .contatos {
-    margin-top: 30px;
+    margin: 30px auto 0 auto;
+    max-width: var(--tamanhoMobile);
 }
 
 .contatos > h2 {
@@ -301,9 +308,10 @@ h2 {
 }
 
 .voltarTopo{
+    display: block;
     color: #7B4AE280;
-    margin: 10px 0 20px 0;
-    display: flex;
+    margin: 10px auto 20px auto;
+    max-width: var(--tamanhoMobile);
 }
 
 footer > div {

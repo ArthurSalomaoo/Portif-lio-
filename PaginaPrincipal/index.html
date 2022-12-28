@@ -7,6 +7,7 @@
     <title>Arthur Salomão</title>
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/menuResponsivo.css">
+    <link rel="stylesheet" href="estilos/mediaQuery.css">
 
 </head>
 <body>
@@ -52,14 +53,17 @@
 
     <main>
         <div id="home" class="saudacoes">
-            <div class="topicos">
-                <h1>👋Saudações!</h1>
+            <div>
+                <div class="topicos">
+                    <h1>👋Saudações!</h1>
+                </div>
+                <h2>Arthur Salomão Teixeira Pereira</h2>
+                <h3>Desenvolvedor Web</h3>
             </div>
-            <h2>Arthur Salomão Teixeira Pereira</h2>
-            <h3>Desenvolvedor Web</h3>
+
             <div class="links">
                 <a href="arquivos/Curriculo.pdf" download="Curriculo.pdf" type="application/pdf">Baixar CV <img src="imagens/ArrowLineDown.svg" alt="iconDownload"></a>
-                <div><a href="#"> <img src="imagens/WhatsappLogo.svg" alt="watsappLogo"> Vamos conversar</a></div>
+                <div class="botaoWaths"><a href="#"> <img src="imagens/WhatsappLogo.svg" alt="watsappLogo"> Vamos conversar</a></div>
             </div>
         </div>
         <div class="sobreMim" id="sobreMim">
@@ -72,23 +76,23 @@
                         💡Estou interessado em desenvolvimento WEB, e estou atrás da minha primeira oportunidade na área.
                 </p>
 
-                <div id="areaAcademica">
+                <div id="areaAcademica" class="areaAcademica">
                     <h3>Área <br> Acadêmica</h3>
                     <p>2021 - Atualmente</p>
                 </div>
-                <div id="escolaECursos">
 
-                    <div class="cursos" style="margin-top: -5px;">
-                        <h3>Curso técnico em Informática</h3>
-                        <p>Cursando o curso tecnico de Informática no Instituto federal do Rio Grande do Norte, Campus São Gonçalo do amarante.</p>
-                        <div class="tempo">
-                            <p>4 anos</p><p>Maio/2021 - Dezembro/2024</p>
-                        </div>
+                <div class="cursos" style="margin: -5px auto 0 auto;">
+                    <h3>Curso técnico em Informática</h3>
+                    <p>Cursando o curso tecnico de Informática no Instituto federal do Rio Grande do Norte, Campus São Gonçalo do amarante.</p>
+                    <div class="tempo">
+                        <p>4 anos</p><p>Maio/2021 - Dezembro/2024</p>
                     </div>
-                    <div id="cursosExtras" style="border: 0; margin-top: 50px; height: 50px; font-size: 1.17em;
-                    ">
-                        <h3>Cursos <br> extracurriculaar</h3>
-                    </div>
+                </div>
+                <div id="cursosExtras" style="border: 0; margin-top: 50px; height: 50px; font-size: 1.17em;
+                ">
+                <h3>Cursos <br> extracurriculaar</h3>
+                </div>
+                <div class="escolaECursos">
                     <div class="cursos">
                         <h3>Curso HTML5 e CSS3 do módulo 1 ao módulo 4</h3>
                         <p>Curso de HTML5 e CSS3, foi o primeiro curso de html e css que eu vi, value muito apena, não tem nenhum igual ao guanabara</p>
@@ -198,7 +202,7 @@
             </div>
             <h2>Vamos conversar</h2>
             <div class="links">
-                <div>
+                <div class="botaoWaths">
                     <a href="#"><img src="imagens/WhatsappLogo.svg" alt="logo whatsapp"> Vamos conversar</a>
                 </div>
             </div>
