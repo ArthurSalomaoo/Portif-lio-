@@ -198,10 +198,6 @@ h2 {
     max-width: var(--tamanhoMobile);
 }
 
-.projetos > h2:first-of-type {
-    text-align: center;
-}
-
 .displayFlex {
     display: flex;
     flex-wrap: wrap;

@@ -28,6 +28,10 @@
         margin: 0 auto 20px auto;
     }
 
+    .projetos > h2 {
+        text-align: center;
+    }
+
     .skills > :first-child {
         margin: 50px auto 10px auto; 
     }
