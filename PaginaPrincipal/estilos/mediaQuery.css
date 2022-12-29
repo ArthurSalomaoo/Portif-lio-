@@ -71,7 +71,23 @@
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 1152px) {
+
+    main {
+        max-width: 900px;
+        margin: auto;
+    }
+
+    .sobreMim > :first-child{
+        margin: auto;
+        max-width: 680px;
+    }
+
+    .escolaECursos > .cursos{
+        margin: 30px 10px 0 10px;
+    }
+
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {}

@@ -212,6 +212,7 @@ h2 {
 }
 
 .projeto > a > img {
+    display: block;
     width: 90%;
     margin: auto;
 }
@@ -230,6 +231,9 @@ h2 {
     font-size: 0.9em;
     margin-top: 10px;
     margin-bottom: 10px;
+    max-width: 80%;
+    margin: auto;
+    
 }
 
 .projeto > div {
