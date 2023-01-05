@@ -86,6 +86,17 @@ h2 {
     font-size: 1.1rem;
 }
 
+.links > a:first-child {
+    margin-right: 15px;
+}
+
+
+.links > a > img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
 .botaoWaths{
     color: #7B4AE280;
     border: #7B4AE280 1px solid;
@@ -102,17 +113,6 @@ h2 {
     color: #7B4AE280;
     font-weight: 400;
     font-size: 1.1em;
-}
-
-.links > a:first-child {
-    margin-right: 15px;
-}
-
-
-.links > a > img {
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 5px;
 }
 
 .botaoWaths > a > img {
