@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+@media only screen and (min-width: 768px) {
+    .saudacoes {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .links{
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .areaAcademica {
+        text-align: center;
+    }
+
+    .areaAcademica > h3 {
+        max-width: initial;
+    }
+
+    .cursosExtras {
+        max-width: initial;
+        text-align: center;
+    }
+
+    .projetos > :first-child {
+        margin: 0 auto 20px auto;
+    }
+
+    .projetos > h2 {
+        text-align: center;
+    }
+
+    .skills > :first-child {
+        margin: 50px auto 10px auto; 
+    }
+
+    .divSkills > h2 {
+        text-align: center;
+        width: initial;
+    }
+
+    .contatos > :first-child {
+        margin: 50px auto 0 auto;
+    }
+    .contatos > h2 {
+        text-align: center;
+        width: initial;
+    }
+
+    .botaoEmail {
+        display: flex;   
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px auto 20px auto;
+    }
+
+    .botaoEmail > :first-child {
+        margin: initial;
+    }
+
+    .email {
+        text-align: center;
+    }
+
+    .voltarTopo {
+        text-align: center;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1152px) {
+
+    main {
+        max-width: 900px;
+        margin: auto;
+    }
+
+    .sobreMim > :first-child{
+        margin: auto;
+        max-width: 680px;
+    }
+
+    .escolaECursos > .cursos{
+        margin: 30px 10px 0 10px;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

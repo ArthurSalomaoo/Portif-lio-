@@ -238,15 +238,12 @@ h2 {
 .projeto > div {
     display: flex;
     align-items: baseline;
-    flex-wrap: wrap;
-    
 }
 
 .projeto > div > div {
     color: #7B4AE2;
     background: #7b4ae21a;
-    margin: 2px;
-    margin-left: 25px;
+    margin-left: 15px;
     border-radius: 10px;
     padding: 5px 5px;
 }
@@ -260,7 +257,6 @@ h2 {
 .projeto > a > img {
     height: 180px;
 }
-
 
 .skills {
     max-width: var(--tamanhoMobile);
@@ -282,27 +278,20 @@ h2 {
 .divSkills > div {
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: row;
     flex-wrap: wrap;
-    max-width: 300px;
-    margin: auto;
+    align-items: center;
+}
+
+.divSkills > div > img {
+    width: 50px;
+    height: 50px;
+    margin: 10px 10px;
+
 }
 
 .divSkills > p {
     text-align: center;
-}
-
-.techs{
-    color: white;
-}
-.techs > p {
-    border: 1px solid #7B4AE2;
-    padding: 5px 20px 5px 20px;
-    margin: 5px;
-    text-align: center;
-    width: 140px;
-    border-radius: 10px;
+    margin: 20px 0;
 }
 
 .contatos {
